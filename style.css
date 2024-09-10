@@ -21,3 +21,60 @@ body {
     box-shadow: 20,20,20,0.5;
     padding-top: 10px;
 }
+.navbar {
+    position: absolute;
+    top:5px;
+    left: 230px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: center;
+}
+
+img{
+    width:35px;
+    height:35px;
+    padding-top: 13px;
+}
+.login-box {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.google-btn {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    width: 90%;
+    margin-left: 25px;
+}
+.create-account-btn{
+    background-color: #4074b8;
+    color: white;
+    margin-top: 50px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    width: 45%;
+    margin-left: 120px;
+}
+
+.google-btn:hover, .create-account-btn:hover {
+    background-color: #555;
+}
+
+
