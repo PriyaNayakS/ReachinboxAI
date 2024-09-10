@@ -51,13 +51,14 @@ h2 {
     background-color: #1a1a1a;
     color: white;
     border: 1px solid white;
-    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 20px;
-    display: block;
+    display: flex; /* Changed to flex to align content */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
     width: 90%;
     margin-left: 25px;
+    position: relative;
 }
 .create-account-btn{
     background-color: #4074b8;
@@ -75,6 +76,14 @@ h2 {
 
 .google-btn:hover, .create-account-btn:hover {
     background-color: #555;
+}
+
+.button-logo {
+    width: 30px;
+    height: 40px; 
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 
