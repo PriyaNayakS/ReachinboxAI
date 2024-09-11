@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -12,23 +13,26 @@ body {
     align-items: center;
     height: 100vh;
 }
-.container{
+
+.container {
     background-color: black;
     color: white;
-    width:500px;
-    height:250px;
+    width: 500px;
+    height: 250px;
     text-align: center;
-    box-shadow: 20,20,20,0.5;
+    box-shadow: 20, 20, 20, 0.5;
     padding-top: 10px;
 }
+
 .navbar {
+    width: 100%;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 5px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 24px;
     font-weight: bold;
     border-radius: 3px;
@@ -38,12 +42,13 @@ body {
 .logo-img {
     width: 35px;
     height: 35px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 img {
-    padding-top: 0; 
+    padding-top: 0;
 }
+
 .login-box {
     background-color: #1a1a1a;
     padding: 30px;
@@ -62,14 +67,15 @@ h2 {
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    display: flex; /* Changed to flex to align content */
-    align-items: center; /* Vertically centers content */
-    justify-content: center; /* Horizontally centers content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     margin-left: 25px;
     position: relative;
 }
-.create-account-btn{
+
+.create-account-btn {
     background-color: #4074b8;
     color: white;
     margin-top: 50px;
@@ -83,33 +89,31 @@ h2 {
     margin-left: 120px;
 }
 
-.google-btn:hover, .create-account-btn:hover {
+.create-account-btn:hover {
     background-color: #555;
 }
 
 .button-logo {
     width: 25px;
-    height: 40px; 
+    height: 40px;
     margin-right: 10px;
     position: relative;
     padding-bottom: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 footer {
     width: 100%;
-    position: fixed; 
-    bottom: 0; 
-    background-color: #1a1a1a; 
-    color: grey; 
-    text-align: center; 
-    padding: 10px 0; 
-    font-size: 10px; 
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); 
+    position: fixed;
+    bottom: 0;
+    background-color: #1a1a1a;
+    color: grey;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-
-
